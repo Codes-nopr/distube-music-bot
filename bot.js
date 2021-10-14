@@ -19,7 +19,7 @@ client.distube = new Distube.default(client, {
     leaveOnEmpty: true,
     leaveOnFinish: true,
     leaveOnStop: true,
-    emptyCooldown: 5
+    emptyCooldown: 10
 });
 
 client.commands = new Collection();
