@@ -13,7 +13,7 @@ const client = new Client({
 });
 
 client.distube = new Distube.default(client, {
-    searchSongs: 1,
+    searchSongs: 1,  // 1 song will play first fetched track, change it to according get more tracks like search.
     emitNewSongOnly: true,
     emitAddSongWhenCreatingQueue: false,
     leaveOnEmpty: true,
